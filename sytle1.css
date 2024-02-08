@@ -1,0 +1,37 @@
+body {
+    background-image: url('image/bg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.widb{
+    width: 300px;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+}
+.widb h4{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.widb input{
+    margin-bottom: 35px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.loginbtn{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.signupbtn {
+    text-decoration: none;
+}
